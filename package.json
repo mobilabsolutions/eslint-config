@@ -1,0 +1,17 @@
+{
+  "name": "@mobilabsolutions/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint configuration for mobilab projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^2.9.1",
+    "eslint": "^4.19.1"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.1.0"
+  }
+}

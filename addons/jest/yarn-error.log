@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install --mutex network:42424 --non-interactive --production --no-optional
+
+PATH: 
+  /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/eslint-config/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/node_modules/.bin:/Users/joaohenriques/Projects/node_modules/.bin:/Users/joaohenriques/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/android-sdk/tools:/usr/local/opt/android-sdk/platform-tools
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  9.3.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+  	"dependencies": {
+  		"eslint": "^4.19.1",
+  		"eslint-plugin-jest": "^7.7.0",
+  		"lerna": "^2.9.1"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find any versions for "eslint-plugin-jest" that matches "^7.7.0"
+      at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Function.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:51457:13)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:160:7)
