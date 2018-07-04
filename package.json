@@ -1,7 +1,7 @@
 {
   "name": "@mobilabsolutions/eslint-config",
   "version": "1.0.0",
-  "description": "eslint configuration for mobilab projects",
+  "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

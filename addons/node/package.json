@@ -1,7 +1,7 @@
 {
   "name": "@mobilabsolutions/eslint-config-node",
   "version": "1.0.0",
-  "description": "eslint node configuration for mobilab projects",
+  "description": "eslint node configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,13 +12,9 @@
     "eslint": "^4.19.1"
   },
   "dependencies": {
-    "babel-eslint": "^8.1.0",
-    "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3"
+    "babel-eslint": "^8.1.0"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint": "^4.19.1"
   }
 }
