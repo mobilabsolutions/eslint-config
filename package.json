@@ -13,5 +13,17 @@
   },
   "dependencies": {
     "babel-eslint": "^8.1.0"
-  }
+  },
+  "keywords": [
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style checker",
+    "style linter"
+  ]
 }

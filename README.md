@@ -5,7 +5,6 @@
 ```
 npm install --save-dev @mobilabsolutions/eslint-config
 ```
-
 ## Usage
 
 Include the `@mobilabsolutions/eslint-config/*` to the "extends" array in your .eslintrc.\* file.\
