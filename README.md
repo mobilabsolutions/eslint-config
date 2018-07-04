@@ -1,4 +1,4 @@
-# Mobilab eslint-config
+# Mobilab Solutions eslint-config
 
 ## Installation
 
