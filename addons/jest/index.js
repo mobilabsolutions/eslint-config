@@ -2,15 +2,17 @@
 
 const fs = require("fs");
 const path = require("path");
-console.log(222)
 const rules = fs.readdirSync(path.join(__dirname, "rules"));
 
 module.exports = {
-  plugins: ["react"],
+  plugins: ["jest"],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
     }
+  },
+  'env': {
+    'jest/globals': true,
   },
   extends: rules
     .filter(name => name.endsWith(".js"))

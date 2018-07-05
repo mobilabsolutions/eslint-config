@@ -5,14 +5,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "ISC",
   "devDependencies": {
     "lerna": "^2.9.1",
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1 || ^5.0.1"
   },
   "dependencies": {
     "babel-eslint": "^8.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1 || ^5.0.1"
   },
   "keywords": [
     "code checker",

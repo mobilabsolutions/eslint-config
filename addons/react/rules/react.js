@@ -1,12 +1,6 @@
 "use strict";
 
 module.exports = {
-  plugins: ["react"],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
-    }
-  },
   rules: {
     // Specify whether double or single quotes should be used in JSX attributes
     // https://eslint.org/docs/rules/jsx-quotes

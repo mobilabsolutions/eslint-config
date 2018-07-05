@@ -1,7 +1,6 @@
 "use strict";
 
 module.exports = {
-  plugins: ["jest"],
   rules: {
     // Disallow disabled Tests
     "jest/no-disabled-tests": 1,
