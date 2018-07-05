@@ -70,7 +70,6 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
 
 ```json
 {
-  ...
   rules: {
     "constructor-super": "off",
     "generator-star-spacing": "off",
