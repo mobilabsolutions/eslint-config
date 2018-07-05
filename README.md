@@ -44,7 +44,7 @@ You can combine between the standard and the addons configuration.
 
 An example to how configure an ES6 + React project.
 
-```
+```json
 {
   "extends": [
     "@mobilabsolutions/eslint-config/es6",
@@ -61,5 +61,21 @@ An example to how configure an ES6 + React project.
 
 ## Overrides
 
-You can easily override specific this settings.
+You can easily override specific this settings.\
 See http://eslint.org/docs/developer-guide/shareable-configs for more information.
+
+### Example
+
+```json
+{
+  ...
+  rules: {
+    "constructor-super": "off",
+    "generator-star-spacing": "off",
+    "no-class-assign": "off",
+  }
+}
+```
+
+## License
+[MIT License](./LICENSE.md)
