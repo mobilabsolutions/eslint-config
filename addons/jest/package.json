@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "eslint jest configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
