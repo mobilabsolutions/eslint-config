@@ -7,6 +7,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 # 1.1.0 (2018-07-09)
 
 
-### Features
 
-* **react:** Update installation and usage example. ([71f9d11](https://github.com/mobilabsolutions/eslint-config/commit/71f9d11))
+
+**Note:** Version bump only for package @mobilabsolutions/eslint-config-node
