@@ -3,5 +3,3 @@ node_modules/
 
 # lock files
 npm-shrinkwrap.json
-package-lock.json
-yarn.lock
