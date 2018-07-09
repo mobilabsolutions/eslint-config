@@ -14,7 +14,7 @@ To install this package and all its peer dependencies run:
 
 ```bash
 (
-  export PKG=eslint-config-skeleton;
+  export PKG=@mobilabsolutions/eslint-config;
   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )
 ```
