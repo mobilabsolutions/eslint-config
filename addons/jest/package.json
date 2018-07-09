@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config-jest",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "eslint jest configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "echo \"Error: no test specified\""

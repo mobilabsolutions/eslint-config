@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn publish --tag latest --new-version 1.1.0
+  /usr/local/bin/node /usr/local/bin/yarn publish --tag latest --new-version 1.1.1
 
 PATH: 
-  /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/eslint-config/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/node_modules/.bin:/Users/joaohenriques/Projects/node_modules/.bin:/Users/joaohenriques/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/android-sdk/tools:/usr/local/opt/android-sdk/platform-tools
+  /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/eslint-config/node_modules/.bin:/Users/joaohenriques/Projects/mobilab/node_modules/.bin:/Users/joaohenriques/Projects/node_modules/.bin:/Users/joaohenriques/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/joaohenriques/Projects/mobilab/eslint-config/node_modules/.bin:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/android-sdk/tools:/usr/local/opt/android-sdk/platform-tools
 
 Yarn version: 
   1.5.1
@@ -16,7 +16,7 @@ Platform:
 npm manifest: 
   {
     "name": "@mobilabsolutions/eslint-config-node",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "eslint node configuration for Mobilab Solutions projects",
     "scripts": {
       "test": "echo \"Error: no test specified\""

@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config-react",
-  "version": "1.2.0",
+  "version": "1.0.0",
   "description": "eslint react configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "echo \"Error: no test specified\""
