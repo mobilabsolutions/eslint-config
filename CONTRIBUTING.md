@@ -17,5 +17,5 @@ We use lerna's "independent" mode, which means that the versioningof each packag
 
 The `npm run release` command will make a release for each changed add-ons, this means that will create a tag on the repo, publish to npm and generate the `CHANGELOG.md`.
 
-We use [semver](https://semver.org/) and (conventional commits)(https://conventionalcommits.org/).
+We use [semver](https://semver.org/) and [conventional commits](https://conventionalcommits.org/).
 
