@@ -1,7 +1,13 @@
 {
   "lerna": "2.9.1",
-  "packages": ["addons/*"],
-  "version": "0.0.0",
+  "packages": [
+    "addons/*"
+  ],
   "npmClient": "yarn",
-  "npmClientArgs": ["--production", "--no-optional"]
+  "npmClientArgs": [
+    "--production",
+    "--no-optional"
+  ],
+  "version": "independent",
+  "independent": true
 }

@@ -1,2 +1,5 @@
+# Dependency directory
 node_modules/
-npm-debug.*
+
+# lock files
+npm-shrinkwrap.json

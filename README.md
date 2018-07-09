@@ -1,5 +1,6 @@
 # Mobilab Solutions eslint-config
 
+
 [![Build Status](https://travis-ci.com/mobilabsolutions/eslint-config.svg?token=4jUapmoJ1R63bAvgqCWb&branch=master)](https://travis-ci.com/mobilabsolutions/eslint-config)
 
 ## Installation
@@ -14,7 +15,7 @@ To install this package and all its peer dependencies run:
 
 ```bash
 (
-  export PKG=eslint-config-skeleton;
+  export PKG=@mobilabsolutions/eslint-config;
   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )
 ```
@@ -44,7 +45,10 @@ You can combine between the standard and the addons configuration.
 
 ### Sample
 
-An example to how configure an ES6 + React project.
+An example to how configure an ES6 + React project.\
+
+#### Installation and usage
+`npm install --save-dev @mobilabsolutions/eslint-config @mobilabsolutions/eslint-config-react`
 
 ```json
 {
@@ -70,14 +74,16 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
 
 ```json
 {
-  ...
-  rules: {
+  "rules": {
     "constructor-super": "off",
     "generator-star-spacing": "off",
     "no-class-assign": "off",
   }
 }
 ```
+
+## Contributing
+See how to contribute [Contributors Guide](/CONTRIBUTING.md)
 
 ## License
 [MIT License](./LICENSE.md)
