@@ -1,6 +1,7 @@
 # Mobilab Solutions eslint-config
 
-[![Build Status](https://travis-ci.com/mobilabsolutions/eslint-config.svg?branch=master)](https://travis-ci.com/mobilabsolutions/eslint-config)
+
+[![Build Status](https://travis-ci.com/mobilabsolutions/eslint-config.svg?token=4jUapmoJ1R63bAvgqCWb&branch=master)](https://travis-ci.com/mobilabsolutions/eslint-config)
 
 ## Installation
 
