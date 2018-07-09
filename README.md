@@ -45,6 +45,8 @@ You can combine between the standard and the addons configuration.
 ### Sample
 
 An example to how configure an ES6 + React project.\
+
+#### Installation and usage
 `npm install --save-dev @mobilabsolutions/eslint-config @mobilabsolutions/eslint-config-react`
 
 ```json
