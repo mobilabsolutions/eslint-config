@@ -85,6 +85,5 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
 ## Contributing
 See how to contribute [Contributors Guide](/CONTRIBUTING.md)
 
-See the [.]
 ## License
 [MIT License](./LICENSE.md)
