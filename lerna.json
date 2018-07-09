@@ -3,10 +3,11 @@
   "packages": [
     "addons/*"
   ],
-  "version": "1.1.0",
   "npmClient": "yarn",
   "npmClientArgs": [
     "--production",
     "--no-optional"
-  ]
+  ],
+  "version": "independent",
+  "independent": true
 }

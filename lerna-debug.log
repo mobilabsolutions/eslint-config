@@ -1,19 +1,198 @@
-0 silly input []
-1 silly flags { _: [ 'bootstrap' ],
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ],
 1 silly flags   'reject-cycles': false,
 1 silly flags   rejectCycles: false,
-1 silly flags   args: [] }
+1 silly flags   'conventional-commits': true,
+1 silly flags   conventionalCommits: true }
 2 verbose rootPath /Users/joaohenriques/Projects/mobilab/eslint-config
 3 info version 2.9.1
-4 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/VERSION
-5 error EPACKAGES Errored while collecting packages and package graph
-6 error JSONError: Unexpected token } in JSON at position 655 while parsing near '...eact": "^7.10.0",  }}' in addons/react/package.json
-6 error     at module.exports (/usr/local/lib/node_modules/lerna/node_modules/parse-json/index.js:26:19)
-6 error     at parse (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:8:29)
-6 error     at Function.module.exports.sync.fp [as sync] (/usr/local/lib/node_modules/lerna/node_modules/load-json-file/index.js:11:29)
-6 error     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/read-pkg/index.js:40:25)
-6 error     at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:138:47
-6 error     at Array.forEach (<anonymous>)
-6 error     at /usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:132:86
-6 error     at Array.forEach (<anonymous>)
-6 error     at Function.getPackages (/usr/local/lib/node_modules/lerna/lib/PackageUtilities.js:131:22)
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/VERSION
+7 silly initialize attempt
+8 info current version 0.0.0
+9 silly isDetachedHead
+10 silly getCurrentBranch
+11 verbose getCurrentBranch master
+12 verbose isDetachedHead false
+13 silly getCurrentBranch
+14 verbose getCurrentBranch master
+15 silly getUpdates
+16 info Checking for updated packages...
+17 silly hasTags
+18 verbose hasTags false
+19 info Comparing with initial commit.
+20 verbose updated @mobilabsolutions/eslint-config-jest
+21 verbose updated @mobilabsolutions/eslint-config-node
+22 verbose updated @mobilabsolutions/eslint-config-react
+23 info Checking for prereleased packages...
+24 silly collectDependents
+25 silly isPackageDependentOf @mobilabsolutions/eslint-config-jest @mobilabsolutions/eslint-config-jest
+26 silly isPackageDependentOf @mobilabsolutions/eslint-config-jest @mobilabsolutions/eslint-config-node
+27 silly isPackageDependentOf @mobilabsolutions/eslint-config-jest @mobilabsolutions/eslint-config-react
+28 silly isPackageDependentOf @mobilabsolutions/eslint-config-node @mobilabsolutions/eslint-config-jest
+29 silly isPackageDependentOf @mobilabsolutions/eslint-config-node @mobilabsolutions/eslint-config-node
+30 silly isPackageDependentOf @mobilabsolutions/eslint-config-node @mobilabsolutions/eslint-config-react
+31 silly isPackageDependentOf @mobilabsolutions/eslint-config-react @mobilabsolutions/eslint-config-jest
+32 silly isPackageDependentOf @mobilabsolutions/eslint-config-react @mobilabsolutions/eslint-config-node
+33 silly isPackageDependentOf @mobilabsolutions/eslint-config-react @mobilabsolutions/eslint-config-react
+34 silly collectUpdates
+35 verbose has filtered update @mobilabsolutions/eslint-config-jest
+36 verbose has filtered update @mobilabsolutions/eslint-config-node
+37 verbose has filtered update @mobilabsolutions/eslint-config-react
+38 silly recommendFixedVersion for @mobilabsolutions/eslint-config-jest at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest
+39 verbose recommendFixedVersion increment 1.0.0 by patch
+40 silly recommendFixedVersion for @mobilabsolutions/eslint-config-node at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node
+41 verbose recommendFixedVersion increment 1.0.0 by patch
+42 silly recommendFixedVersion for @mobilabsolutions/eslint-config-react at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react
+43 verbose recommendFixedVersion increment 1.0.0 by minor
+44 silly initialize success
+45 silly execute attempt
+46 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/lerna.json
+47 silly runScriptSync preversion @mobilabsolutions/eslint-config
+48 silly runScriptSync preversion @mobilabsolutions/eslint-config-jest
+49 silly runScriptSync version @mobilabsolutions/eslint-config-jest
+50 silly updateFixedChangelog for @mobilabsolutions/eslint-config-jest at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest
+51 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/CHANGELOG.md
+52 silly updateFixedChangelog writing new entry: "<a name=\"1.1.0\"></a>\n# 1.1.0 (2018-07-09)\n\n\n\n\n**Note:** Version bump only for package @mobilabsolutions/eslint-config-jest"
+53 silly writeFileSync [ '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/CHANGELOG.md',
+53 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="1.1.0"></a>\n# 1.1.0 (2018-07-09)\n\n\n\n\n**Note:** Version bump only for package @mobilabsolutions/eslint-config-jest' ]
+54 verbose updateFixedChangelog wrote /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/CHANGELOG.md
+55 silly runScriptSync preversion @mobilabsolutions/eslint-config-node
+56 silly runScriptSync version @mobilabsolutions/eslint-config-node
+57 silly updateFixedChangelog for @mobilabsolutions/eslint-config-node at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node
+58 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/CHANGELOG.md
+59 silly updateFixedChangelog writing new entry: "<a name=\"1.1.0\"></a>\n# 1.1.0 (2018-07-09)\n\n\n\n\n**Note:** Version bump only for package @mobilabsolutions/eslint-config-node"
+60 silly writeFileSync [ '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/CHANGELOG.md',
+60 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="1.1.0"></a>\n# 1.1.0 (2018-07-09)\n\n\n\n\n**Note:** Version bump only for package @mobilabsolutions/eslint-config-node' ]
+61 verbose updateFixedChangelog wrote /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/CHANGELOG.md
+62 silly runScriptSync preversion @mobilabsolutions/eslint-config-react
+63 silly runScriptSync version @mobilabsolutions/eslint-config-react
+64 silly updateFixedChangelog for @mobilabsolutions/eslint-config-react at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react
+65 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react/CHANGELOG.md
+66 silly updateFixedChangelog writing new entry: "<a name=\"1.1.0\"></a>\n# 1.1.0 (2018-07-09)\n\n\n### Features\n\n* **react:** Update installation and usage example. ([71f9d11](https://github.com/mobilabsolutions/eslint-config/commit/71f9d11))\n\n\n"
+67 silly writeFileSync [ '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/react/CHANGELOG.md',
+67 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="1.1.0"></a>\n# 1.1.0 (2018-07-09)\n\n\n### Features\n\n* **react:** Update installation and usage example. ([71f9d11](https://github.com/mobilabsolutions/eslint-config/commit/71f9d11))' ]
+68 verbose updateFixedChangelog wrote /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react/CHANGELOG.md
+69 silly updateFixedRootChangelog for @mobilabsolutions/eslint-config at /Users/joaohenriques/Projects/mobilab/eslint-config
+70 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/CHANGELOG.md
+71 silly readFileSync /Users/joaohenriques/Projects/mobilab/eslint-config/CHANGELOG.md
+72 silly updateFixedRootChangelog writing new entry: "<a name=\"1.1.0\"></a>\n# 1.1.0 (2018-07-09)\n\n\n### Features\n\n* **react:** Update installation and usage example. ([71f9d11](https://github.com/mobilabsolutions/eslint-config/commit/71f9d11))\n\n\n"
+73 silly writeFileSync [ '/Users/joaohenriques/Projects/mobilab/eslint-config/CHANGELOG.md',
+73 silly writeFileSync   '# Change Log\n\nAll notable changes to this project will be documented in this file.\nSee [Conventional Commits](https://conventionalcommits.org) for commit guidelines.\n\n<a name="1.1.0"></a>\n# 1.1.0 (2018-07-09)\n\n\n### Features\n\n* **react:** Update installation and usage example. ([71f9d11](https://github.com/mobilabsolutions/eslint-config/commit/71f9d11))' ]
+74 verbose updateFixedRootChangelog wrote /Users/joaohenriques/Projects/mobilab/eslint-config/CHANGELOG.md
+75 silly runScriptSync version @mobilabsolutions/eslint-config
+76 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/CHANGELOG.md
+77 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/package.json
+78 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/CHANGELOG.md
+79 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/package.json
+80 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react/CHANGELOG.md
+81 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react/package.json
+82 silly addFile /Users/joaohenriques/Projects/mobilab/eslint-config/CHANGELOG.md
+83 silly commit v1.1.0
+84 verbose commit [ 'commit', '--no-verify', '-m', 'v1.1.0' ]
+85 silly addTag v1.1.0
+86 silly runScriptSync postversion @mobilabsolutions/eslint-config-jest
+87 silly runScriptSync postversion @mobilabsolutions/eslint-config-node
+88 silly runScriptSync postversion @mobilabsolutions/eslint-config-react
+89 silly runScriptSync postversion @mobilabsolutions/eslint-config
+90 info publish Publishing packages to npm...
+91 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/scripts/prepublish.js
+92 verbose execScript No prepublish script found at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/scripts/prepublish.js
+93 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/scripts/prepublish.js
+94 verbose execScript No prepublish script found at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/node/scripts/prepublish.js
+95 silly existsSync /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react/scripts/prepublish.js
+96 verbose execScript No prepublish script found at /Users/joaohenriques/Projects/mobilab/eslint-config/addons/react/scripts/prepublish.js
+97 verbose publishing @mobilabsolutions/eslint-config-jest
+98 silly publishTaggedInDir latest jest
+99 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest' }
+100 verbose publishing @mobilabsolutions/eslint-config-node
+101 silly publishTaggedInDir latest node
+102 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node' }
+103 verbose publishing @mobilabsolutions/eslint-config-react
+104 silly publishTaggedInDir latest react
+105 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/react' }
+106 error publish Retrying failed publish: @mobilabsolutions/eslint-config-jest
+107 verbose publish error undefined
+108 verbose publishing @mobilabsolutions/eslint-config-jest
+109 silly publishTaggedInDir latest jest
+110 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest' }
+111 error publish Retrying failed publish: @mobilabsolutions/eslint-config-react
+112 verbose publish error undefined
+113 verbose publishing @mobilabsolutions/eslint-config-react
+114 silly publishTaggedInDir latest react
+115 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/react' }
+116 error publish Retrying failed publish: @mobilabsolutions/eslint-config-node
+117 verbose publish error undefined
+118 verbose publishing @mobilabsolutions/eslint-config-node
+119 silly publishTaggedInDir latest node
+120 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node' }
+121 error publish Retrying failed publish: @mobilabsolutions/eslint-config-jest
+122 verbose publish error undefined
+123 verbose publishing @mobilabsolutions/eslint-config-jest
+124 silly publishTaggedInDir latest jest
+125 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest' }
+126 error publish Retrying failed publish: @mobilabsolutions/eslint-config-react
+127 verbose publish error undefined
+128 verbose publishing @mobilabsolutions/eslint-config-react
+129 silly publishTaggedInDir latest react
+130 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/react' }
+131 error publish Retrying failed publish: @mobilabsolutions/eslint-config-node
+132 verbose publish error undefined
+133 verbose publishing @mobilabsolutions/eslint-config-node
+134 silly publishTaggedInDir latest node
+135 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node' }
+136 error publish Retrying failed publish: @mobilabsolutions/eslint-config-jest
+137 verbose publish error undefined
+138 verbose publishing @mobilabsolutions/eslint-config-jest
+139 silly publishTaggedInDir latest jest
+140 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest' }
+141 error publish Retrying failed publish: @mobilabsolutions/eslint-config-react
+142 verbose publish error undefined
+143 verbose publishing @mobilabsolutions/eslint-config-react
+144 silly publishTaggedInDir latest react
+145 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/react' }
+146 error publish Retrying failed publish: @mobilabsolutions/eslint-config-node
+147 verbose publish error undefined
+148 verbose publishing @mobilabsolutions/eslint-config-node
+149 silly publishTaggedInDir latest node
+150 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node' }
+151 error publish Retrying failed publish: @mobilabsolutions/eslint-config-jest
+152 verbose publish error undefined
+153 verbose publishing @mobilabsolutions/eslint-config-jest
+154 silly publishTaggedInDir latest jest
+155 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest' }
+156 error publish Retrying failed publish: @mobilabsolutions/eslint-config-react
+157 verbose publish error undefined
+158 verbose publishing @mobilabsolutions/eslint-config-react
+159 silly publishTaggedInDir latest react
+160 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/react' }
+161 error publish Retrying failed publish: @mobilabsolutions/eslint-config-node
+162 verbose publish error undefined
+163 verbose publishing @mobilabsolutions/eslint-config-node
+164 silly publishTaggedInDir latest node
+165 silly getExecOpts { cwd: '/Users/joaohenriques/Projects/mobilab/eslint-config/addons/node' }
+166 error publish Ran out of retries while publishing @mobilabsolutions/eslint-config-jest Error: Command failed: yarn publish --tag latest --new-version 1.1.0
+166 error publish error An unexpected error occurred: "No token found and can't prompt for login when running with --non-interactive.".
+166 error publish yarn publish v1.5.1
+166 error publish [1/4] Bumping version...
+166 error publish info Current version: 1.1.0
+166 error publish [2/4] Logging in...
+166 error publish info If you think this is a bug, please open a bug report with the information provided in "/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/yarn-error.log".
+166 error publish info Visit https://yarnpkg.com/en/docs/cli/publish for documentation about this command.
+166 error publish
+166 error publish     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+166 error publish     at <anonymous>
+166 error publish     at process._tickCallback (internal/process/next_tick.js:160:7)
+167 error execute callback with error
+168 error Error: Command failed: yarn publish --tag latest --new-version 1.1.0
+168 error error An unexpected error occurred: "No token found and can't prompt for login when running with --non-interactive.".
+168 error yarn publish v1.5.1
+168 error [1/4] Bumping version...
+168 error info Current version: 1.1.0
+168 error [2/4] Logging in...
+168 error info If you think this is a bug, please open a bug report with the information provided in "/Users/joaohenriques/Projects/mobilab/eslint-config/addons/jest/yarn-error.log".
+168 error info Visit https://yarnpkg.com/en/docs/cli/publish for documentation about this command.
+168 error
+168 error     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:236:11)
+168 error     at <anonymous>
