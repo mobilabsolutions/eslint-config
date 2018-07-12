@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
+    "lint": "eslint .",
     "release": "lerna publish --conventional-commits",
     "postinstall": "lerna bootstrap",
     "updtr": "updtr --save-exact",
     "update-all": "lerna run updtr"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mobilabsolutions/eslint-config.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint": "5.1.0",
@@ -33,5 +38,8 @@
     "lint",
     "style checker",
     "style linter"
-  ]
+  ],
+  "engines": {
+    "node": "^6.14.0 || ^8.10.0 || >=9.10.0"
+  }
 }
