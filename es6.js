@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const rules = fs.readdirSync(path.join(__dirname, 'rules'));
+const rules = fs.readdirSync(path.join(__dirname, 'rules')); // eslint-disable-line
 
 module.exports = {
   env: {
@@ -14,5 +14,7 @@ module.exports = {
     ecmaVersion: 6,
     sourceType: 'module'
   },
-  extends: ['prettier'].concat(rules.filter(name => name.endsWith('.js')).map(name => `./rules/${name}`))
+  extends: ['prettier'].concat(
+    rules.filter(name => name.endsWith('.js')).map(name => `./rules/${name}`)
+  )
 };

@@ -46,6 +46,6 @@ module.exports = {
 
     // disallow synchronous methods
     // http://eslint.org/docs/rules/no-sync
-    'no-sync': 'off'
+    'no-sync': 'error'
   }
 };
