@@ -9,7 +9,7 @@ module.exports = {
   env: {
     es6: true
   },
-  plugins: ['prettier', 'import'],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module'
