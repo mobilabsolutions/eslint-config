@@ -4,7 +4,6 @@
   "description": "eslint react configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "eslint .",
-    "clean": "rm -rf node_modules",
     "updtr": "updtr --save-exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
@@ -13,7 +12,6 @@
     "babel-eslint": "8.2.5",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-jsx-a11y": "6.1.0",
-    "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-react": "7.10.0"
   },
   "devDependencies": {
