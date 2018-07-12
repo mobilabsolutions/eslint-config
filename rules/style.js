@@ -1,7 +1,7 @@
 // http://eslint.org/docs/rules/#stylistic-issues
 
 module.exports = {
-  "rules": {
+  rules: {
     // enforce consistent spacing inside array brackets
     // http://eslint.org/docs/rules/array-bracket-spacing
     "array-bracket-spacing": ["error", "never"],
@@ -16,7 +16,7 @@ module.exports = {
 
     // enforce camelcase naming convention
     // http://eslint.org/docs/rules/camelcase
-    "camelcase": ["error", { properties: "never" }],
+    camelcase: ["error", { properties: "never" }],
 
     // require or disallow trailing commas
     // http://eslint.org/docs/rules/comma-dangle
