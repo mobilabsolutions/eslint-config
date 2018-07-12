@@ -2,7 +2,8 @@
   "root": true,
   "extends": ["./es6.js", "./addons/node/index.js"],
   "rules": {
-    "quote-props": [0, "always"],
-    "quotes": ["error", "single"]
+    "quotes": ["error", "single"],
+    "quote-props": ["off", "always"],
+    "no-sync": "off"
   }
 }
