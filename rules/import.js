@@ -4,33 +4,22 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: "module"
   },
-  plugins: [
-    'import'
-  ],
+  plugins: ["import"],
 
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        extensions: ['.mjs', '.js', '.json']
+        extensions: [".mjs", ".js", ".json"]
       }
     },
-    'import/extensions': [
-      '.js',
-      '.mjs',
-      '.jsx',
-    ],
-    'import/core-modules': [
-    ],
-    'import/ignore': [
-      'node_modules',
-      '\\.(coffee|scss|css|less|hbs|svg|json)$',
-    ],
+    "import/extensions": [".js", ".mjs", ".jsx"],
+    "import/core-modules": [],
+    "import/ignore": ["node_modules", "\\.(coffee|scss|css|less|hbs|svg|json)$"]
   },
 
   rules: {
-
     // ensure imports point to files/modules that can be resolved
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
     "import/no-unresolved": "off",
@@ -46,15 +35,14 @@ module.exports = {
 
     // Require modules with a single export to use a default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': "off",
+    "import/prefer-default-export": "off",
 
     // Require a newline after the last import/require in a group
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
-    'import/newline-after-import': 'off',
+    "import/newline-after-import": "off",
 
     // Forbid Webpack loader syntax in imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-webpack-loader-syntax.md
-    "import/no-webpack-loader-syntax": "off",
-
+    "import/no-webpack-loader-syntax": "off"
   }
 };

@@ -8,24 +8,6 @@
 npm install --save-dev @mobilabsolutions/eslint-config
 ```
 
-### OSX/Linux
-
-To install this package and all its peer dependencies run:
-
-```bash
-(
-  export PKG=@mobilabsolutions/eslint-config;
-  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
-)
-```
-
-### Windows
-
-```bash
-npm install -g install-peerdeps
-install-peerdeps --dev eslint-config-skeleton
-```
-
 ## Usage
 
 Include the `@mobilabsolutions/eslint-config/*` to the "extends" array in your .eslintrc.\* file.\
@@ -41,6 +23,7 @@ You can combine with other packages.
 An example to how configure an ES6 + React project.\
 
 #### Installation and usage
+
 `npm install --save-dev @mobilabsolutions/eslint-config @mobilabsolutions/eslint-config-react`
 
 ```json
@@ -51,11 +34,12 @@ An example to how configure an ES6 + React project.\
   ]
 }
 ```
+
 ## Addons
 
 [@mobilabsolutions/eslint-config-react](./addons/react/README.md) - If you are going to use React (requires es6 base configuration or higher)\
-[@mobilabsolutions/eslint-config-node](./addons/node/README.md)   - If you are going to develop code for NodeJS\
-[@mobilabsolutions/eslint-config-jest](./addons/jest/README.md)   - If you are going to use Jest to develop tests\
+[@mobilabsolutions/eslint-config-node](./addons/node/README.md) - If you are going to develop code for NodeJS\
+[@mobilabsolutions/eslint-config-jest](./addons/jest/README.md) - If you are going to use Jest to develop tests\
 
 ## Overrides
 
@@ -69,13 +53,15 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
   "rules": {
     "constructor-super": "off",
     "generator-star-spacing": "off",
-    "no-class-assign": "off",
+    "no-class-assign": "off"
   }
 }
 ```
 
 ## Contributing
+
 See how to contribute [Contributors Guide](/CONTRIBUTING.md)
 
 ## License
+
 [MIT License](./LICENSE.md)

@@ -1,4 +1,3 @@
-
 // http://eslint.org/docs/rules/#nodejs-and-commonjs
 
 "use strict";

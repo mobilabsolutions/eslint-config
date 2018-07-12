@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "description": "eslint node configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "echo \"Error: no test specified(node)\""
+    "updtr": "updtr --save-exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^4.19.1 || ^5.0.1",
-    "lerna": "^2.9.1"
-  },
   "dependencies": {
-    "babel-eslint": "^8.1.0"
+    "babel-eslint": "8.2.5"
+  },
+  "devDependencies": {
+    "eslint": "5.1.0",
+    "lerna": "2.11.0"
   },
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.0.1"

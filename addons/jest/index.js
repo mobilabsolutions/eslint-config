@@ -11,8 +11,8 @@ module.exports = {
       jsx: true
     }
   },
-  'env': {
-    'jest/globals': true,
+  env: {
+    "jest/globals": true
   },
   extends: rules
     .filter(name => name.endsWith(".js"))
