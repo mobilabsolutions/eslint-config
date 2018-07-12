@@ -15,7 +15,7 @@ You can combine with other packages.
 
 ### Standard configuration
 
-`@mobilabsolutions/eslint-config/es5` - ES5 config\
+`@mobilabsolutions/eslint-config/es5` - ES5 config
 `@mobilabsolutions/eslint-config/es6` - ES6 config
 
 ### Sample
@@ -24,7 +24,7 @@ An example to how configure an ES6 + React project.\
 
 #### Installation and usage
 
-`npm install --save-dev @mobilabsolutions/eslint-config @mobilabsolutions/eslint-config-react`
+`npm install --save-dev eslint prettier @mobilabsolutions/eslint-config @mobilabsolutions/eslint-config-react`
 
 ```json
 {

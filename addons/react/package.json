@@ -10,13 +10,16 @@
   "dependencies": {
     "babel-eslint": "8.2.5",
     "eslint-plugin-jsx-a11y": "6.1.0",
+    "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-react": "7.10.0"
   },
   "devDependencies": {
     "eslint": "5.1.0",
-    "lerna": "2.11.0"
+    "lerna": "2.11.0",
+    "prettier": "1.13.7"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1 || ^5.0.1"
+    "eslint": "^4.19.1 || ^5.0.1",
+    "prettier": "^1.13.7"
   }
 }
