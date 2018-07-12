@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "eslint jest configuration for Mobilab Solutions projects",
   "scripts": {
+    "test": "eslint .",
+    "clean": "rm -rf node_modules",
     "updtr": "updtr --save-exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",

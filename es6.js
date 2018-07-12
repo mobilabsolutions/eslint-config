@@ -9,11 +9,10 @@ module.exports = {
   env: {
     es6: true
   },
+  plugins: ['prettier', 'import'],
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module'
   },
-  extends: rules
-    .filter(name => name.endsWith('.js'))
-    .map(name => `./rules/${name}`)
+  extends: ['prettier'].concat(rules.filter(name => name.endsWith('.js')).map(name => `./rules/${name}`))
 };

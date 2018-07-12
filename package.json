@@ -3,18 +3,25 @@
   "version": "1.0.0",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "eslint .",
+    "test": "eslint ./rules es5.js es6.js",
+    "clean": "rm -rf node_modules",
     "release": "lerna publish --conventional-commits",
     "bootstrap": "lerna bootstrap",
     "updtr": "updtr --save-exact",
+    "clean-all": "lerna run clean",
+    "test-all": "lerna run test",
     "update-all": "lerna run updtr"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "8.2.5",
+    "eslint-config-prettier": "2.9.0",
     "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-prettier": "2.6.2"
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-react": "7.10.0"
   },
   "devDependencies": {
     "eslint": "5.1.0",

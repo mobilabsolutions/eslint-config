@@ -12,7 +12,5 @@ module.exports = {
       jsx: true
     }
   },
-  extends: rules
-    .filter(name => name.endsWith('.js'))
-    .map(name => `./rules/${name}`)
+  extends: ['prettier/react'].concat(rules.filter(name => name.endsWith('.js')).map(name => `./rules/${name}`))
 };

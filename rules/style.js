@@ -68,11 +68,7 @@ module.exports = {
 
     // enforce consistent indentation
     // http://eslint.org/docs/rules/indent
-    indent: [
-      'error',
-      2,
-      { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }
-    ],
+    indent: ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
 
     // enforce the consistent use of either double or single quotes in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
@@ -307,11 +303,7 @@ module.exports = {
 
     // require quotes around object literal property names
     // http://eslint.org/docs/rules/quote-props
-    'quote-props': [
-      'error',
-      'as-needed',
-      { keywords: false, unnecessary: true, numbers: false }
-    ],
+    'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
 
     // enforce the consistent use of either backticks, double, or single quotes
     // http://eslint.org/docs/rules/quotes
@@ -339,10 +331,7 @@ module.exports = {
 
     // enforce consistent spacing before function definition opening parenthesis
     // http://eslint.org/docs/rules/space-before-function-paren
-    'space-before-function-paren': [
-      'error',
-      { anonymous: 'always', named: 'never' }
-    ],
+    'space-before-function-paren': ['error', { anonymous: 'always', named: 'never' }],
 
     // enforce consistent spacing inside parentheses
     // http://eslint.org/docs/rules/space-in-parens
