@@ -4,16 +4,18 @@
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
     "release": "lerna publish --conventional-commits",
-    "test": "echo \"Error: no test specified(root)\""
+    "postinstall": "lerna init",
+    "updtr": "updtr --save-exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^2.9.1",
-    "eslint": "^4.19.1 || ^5.0.1"
+    "eslint": "5.1.0",
+    "lerna": "^2.11.0",
+    "updtr": "2.0.0"
   },
   "dependencies": {
-    "babel-eslint": "^8.1.0"
+    "babel-eslint": "8.2.5"
   },
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.0.1"

@@ -1,5 +1,5 @@
 # Dependency directory
 node_modules/
 
-# lock files
-npm-shrinkwrap.json
+# log files
+lerna-debug.log
