@@ -15,7 +15,7 @@ You can combine with other packages.
 
 ### Standard configuration
 
-`@mobilabsolutions/eslint-config/es5` - ES5 config
+`@mobilabsolutions/eslint-config/es5` - ES5 config\
 `@mobilabsolutions/eslint-config/es6` - ES6 config
 
 ### Sample
@@ -61,6 +61,13 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
 ## Contributing
 
 See how to contribute [Contributors Guide](/CONTRIBUTING.md)
+
+## Development
+
+git clone git@github.com:mobilabsolutions/eslint-config.git
+cd eslint-config
+yarn
+yarn run bootstrap
 
 ## License
 
