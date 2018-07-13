@@ -1,13 +1,12 @@
 # Mobilab eslint-config-node
 
 ## Installation
-```
-npm install --save-dev @mobilabsolutions/eslint-config-node
-```
 
-## Usage
+When using an npm 5+
 
-Include the `@mobilabsolutions/eslint-config-node` to the "extends" array in your .eslintrc.\* file.\
+`npx install-peerdeps --dev eslint-config-node`
+
+If using npm < 5
 
 ### OSX/Linux
 
@@ -24,8 +23,12 @@ To install this package and all its peer dependencies run:
 
 ```bash
 npm install -g install-peerdeps
-install-peerdeps --dev eslint-config-skeleton
+install-peerdeps --dev eslint-config-node
 ```
+
+## Usage
+
+Include the `@mobilabsolutions/eslint-config-node` to the "extends" array in your .eslintrc.\* file.\
 
 ## Overrides
 

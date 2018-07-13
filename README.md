@@ -4,8 +4,28 @@
 
 ## Installation
 
+When using an npm 5+
+
+`npx install-peerdeps --dev eslint-config`
+
+If using npm < 5
+
+### OSX/Linux
+
+To install this package and all its peer dependencies run:
+
 ```bash
-npm install --save-dev @mobilabsolutions/eslint-config
+(
+  export PKG=@mobilabsolutions/eslint-config;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
+```
+
+### Windows
+
+```bash
+npm install -g install-peerdeps
+install-peerdeps --dev eslint-config
 ```
 
 ## Usage
