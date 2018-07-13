@@ -3,34 +3,24 @@
   "version": "1.0.0",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "eslint ./rules es5.js es6.js",
-    "release": "lerna publish --conventional-commits",
-    "bootstrap": "lerna bootstrap",
-    "updtr": "updtr --save-exact",
-    "test-all": "lerna run test",
-    "update-all": "lerna run updtr"
+    "test": "eslint .",
+    "updtr": "updtr --save-exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:mobilabsolutions/eslint-config.git"
-  },
   "license": "MIT",
-  "dependencies": {
-    "babel-eslint": "8.2.5",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-prettier": "2.6.2"
-  },
   "devDependencies": {
+    "eslint-config-prettier": "^2.0.0",
+    "eslint-plugin-prettier": "^2.0.0",
+    "prettier": "1.7.0",
     "eslint": "5.1.0",
     "lerna": "2.11.0",
-    "prettier": "1.13.7",
     "updtr": "2.0.0"
   },
+  "dependencies": {
+    "babel-eslint": "8.2.5"
+  },
   "peerDependencies": {
-    "eslint": "^4.19.1 || ^5.0.1",
-    "prettier": "^1.13.7"
+    "eslint": "^4.19.1 || ^5.0.1"
   },
   "keywords": [
     "code checker",

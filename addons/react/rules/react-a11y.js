@@ -1,5 +1,5 @@
 module.exports = {
-	rules: {
+  rules: {
     // Require ARIA roles to be valid and non-abstract
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-role.md
     'jsx-a11y/aria-role': 2,
@@ -67,5 +67,5 @@ module.exports = {
     // Enforce tabIndex value is not greater than zero.
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/tabindex-no-positive.md
     'jsx-a11y/tabindex-no-positive': 0
-  },
+  }
 };

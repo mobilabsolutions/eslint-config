@@ -1,5 +1,2 @@
 # Dependency directory
 node_modules/
-
-# log files
-lerna-debug.log
