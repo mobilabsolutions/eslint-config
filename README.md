@@ -2,32 +2,6 @@
 
 [![Build Status](https://travis-ci.com/mobilabsolutions/eslint-config.svg?token=4jUapmoJ1R63bAvgqCWb&branch=master)](https://travis-ci.com/mobilabsolutions/eslint-config)
 
-## Installation
-
-When using an npm 5+
-
-`npx install-peerdeps --dev eslint-config`
-
-If using npm < 5
-
-### OSX/Linux
-
-To install this package and all its peer dependencies run:
-
-```bash
-(
-  export PKG=@mobilabsolutions/eslint-config;
-  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
-)
-```
-
-### Windows
-
-```bash
-npm install -g install-peerdeps
-install-peerdeps --dev eslint-config
-```
-
 ## Usage
 
 Include the package that you want to the "extends" array in your .eslintrc.\* file.\
