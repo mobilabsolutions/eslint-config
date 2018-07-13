@@ -30,8 +30,8 @@ install-peerdeps --dev eslint-config
 
 ## Usage
 
-Include the `@mobilabsolutions/eslint-config-*${/?*}` to the "extends" array in your .eslintrc.\* file.\
-You can combine with other packages.
+Include the package that you want to the "extends" array in your .eslintrc.\* file.\
+You can combine with multiple packages. See the available [packages](#addons)
 
 ### Sample
 
@@ -44,14 +44,14 @@ An example to how configure an ES6 + React project.\
 ```json
 {
   "extends": [
-    "@mobilabsolutions/eslint-config-base/es6",
+    "@mobilabsolutions/eslint-config/es6",
     "@mobilabsolutions/eslint-config-react"
   ]
 }
 ```
 
 ## Addons
-[@mobilabsolutions/eslint-config-base](./addons/base/README.md) - If you are going to use javascript\
+[@mobilabsolutions/eslint-config](./addons/base/README.md) - If you are going to use javascript\
 [@mobilabsolutions/eslint-config-react](./addons/react/README.md) - If you are going to use React (requires es6 base configuration or higher)\
 [@mobilabsolutions/eslint-config-node](./addons/node/README.md) - If you are going to develop code for NodeJS\
 [@mobilabsolutions/eslint-config-jest](./addons/jest/README.md) - If you are going to use Jest to develop tests\

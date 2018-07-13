@@ -1,10 +1,10 @@
-# Mobilab eslint-config-base
+# Mobilab eslint-config
 
 ## Installation
 
 When using an npm 5+
 
-`npx install-peerdeps --dev eslint-config-base`
+`npx install-peerdeps --dev eslint-config`
 
 If using npm < 5
 
@@ -14,7 +14,7 @@ To install this package and all its peer dependencies run:
 
 ```bash
 (
-  export PKG=@mobilabsolutions/eslint-config-base;
+  export PKG=@mobilabsolutions/eslint-config;
   npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
 )
 ```
@@ -23,12 +23,12 @@ To install this package and all its peer dependencies run:
 
 ```bash
 npm install -g install-peerdeps
-install-peerdeps --dev eslint-config-base
+install-peerdeps --dev eslint-config
 ```
 
 ## Usage
 
-Include the `@mobilabsolutions/eslint-config-base` to the "extends" array in your .eslintrc.\* file.\
+Include the `@mobilabsolutions/eslint-config` to the "extends" array in your .eslintrc.\* file.\
 
 ## Overrides
 
