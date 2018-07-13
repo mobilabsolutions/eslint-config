@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "eslint node configuration for Mobilab Solutions projects",
   "scripts": {
+    "test": "eslint .",
     "updtr": "updtr --save-exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "8.2.5"
+    "babel-eslint": "8.2.5",
+    "eslint-plugin-node": "6.0.1"
   },
   "devDependencies": {
     "eslint": "5.1.0",

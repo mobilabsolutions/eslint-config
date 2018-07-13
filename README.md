@@ -24,7 +24,7 @@ An example to how configure an ES6 + React project.\
 
 #### Installation and usage
 
-`npm install --save-dev @mobilabsolutions/eslint-config @mobilabsolutions/eslint-config-react`
+`npm install --save-dev eslint prettier @mobilabsolutions/eslint-config @mobilabsolutions/eslint-config-react`
 
 ```json
 {
@@ -61,6 +61,13 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
 ## Contributing
 
 See how to contribute [Contributors Guide](/CONTRIBUTING.md)
+
+## Development
+
+git clone git@github.com:mobilabsolutions/eslint-config.git
+cd eslint-config
+yarn
+yarn run bootstrap
 
 ## License
 
