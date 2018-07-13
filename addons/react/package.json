@@ -3,22 +3,36 @@
   "version": "1.0.0",
   "description": "eslint react configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "echo \"Error: no test specified(react)\""
+    "test": "eslint .",
+    "updtr": "updtr --save-exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
-  "devDependencies": {
-    "eslint": "^4.19.1 || ^5.0.1",
-    "lerna": "^2.9.1"
-  },
   "dependencies": {
-    "babel-eslint": "^8.1.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.10.0"
+    "babel-eslint": "8.2.5",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-jsx-a11y": "6.1.0",
+    "eslint-plugin-react": "7.10.0"
+  },
+  "devDependencies": {
+    "eslint": "5.1.0",
+    "lerna": "2.11.0",
+    "prettier": "1.13.7"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1 || ^5.0.1",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.10.0"
-  }
+    "eslint": "^4.19.1 || ^5.0.1"
+  },
+  "keywords": [
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style checker",
+    "style linter",
+    "react"
+  ]
 }
