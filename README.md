@@ -53,10 +53,12 @@ See how to contribute [Contributors Guide](/CONTRIBUTING.md)
 
 ## Development
 
+```bash
 git clone git@github.com:mobilabsolutions/eslint-config.git
 cd eslint-config
 yarn
 yarn run bootstrap
+```
 
 ## License
 
