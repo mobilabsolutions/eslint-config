@@ -25,10 +25,10 @@ An example to how configure an ES6 + React project.\
 ```
 
 ## Addons
-[@mobilabsolutions/eslint-config](./addons/base/README.md) - If you are going to use javascript\
-[@mobilabsolutions/eslint-config-react](./addons/react/README.md) - If you are going to use React (requires es6 base configuration or higher)\
-[@mobilabsolutions/eslint-config-node](./addons/node/README.md) - If you are going to develop code for NodeJS\
-[@mobilabsolutions/eslint-config-jest](./addons/jest/README.md) - If you are going to use Jest to develop tests\
+[@mobilabsolutions/eslint-config](./addons/base/README.md) - When using ES5, ES6, ... \
+[@mobilabsolutions/eslint-config-react](./addons/react/README.md) - When using React (requires es6 base configuration or higher)\
+[@mobilabsolutions/eslint-config-node](./addons/node/README.md) - When using NodeJS\
+[@mobilabsolutions/eslint-config-jest](./addons/jest/README.md) - When using Jest to develop the tests\
 
 ## Overrides
 
