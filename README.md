@@ -32,7 +32,7 @@ An example to how configure an ES6 + React project.\
 
 ## Overrides
 
-You can easily override specific this settings.\
+You can easily override any specific options.\
 See http://eslint.org/docs/developer-guide/shareable-configs for more information.
 
 ### Example
