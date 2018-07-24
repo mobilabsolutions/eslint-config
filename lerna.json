@@ -3,7 +3,9 @@
   "packages": [
     "addons/*"
   ],
-  "npmClient": "yarn",
+  "publish": {
+    "message": "chore(release): publish %s"
+  },
   "npmClientArgs": [
     "--production",
     "--no-optional"
