@@ -40,7 +40,7 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
 ```json
 {
   "rules": {
-     "node/exports-style": off
+     "node/exports-style": "off"
   }
 }
 ```
