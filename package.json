@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "./node_modules/.bin/eslint .",
     "release": "lerna publish --conventional-commits",
     "bootstrap": "lerna bootstrap",
     "updtr": "updtr --save-exact",

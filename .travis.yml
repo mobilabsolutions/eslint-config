@@ -3,7 +3,9 @@ node_js:
   - "10"
   - "8"
   - "6"
+before_install:
+  - npm install npm@latest -g
 install:
   - npm install && npm run bootstrap
 script:
-  - lerna run test
+  - npm run test-all
