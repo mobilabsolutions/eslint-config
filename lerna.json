@@ -6,6 +6,7 @@
   "publish": {
     "message": "chore(release): publish %s"
   },
+  "npmClient": "yarn",
   "npmClientArgs": [
     "--production",
     "--no-optional"
