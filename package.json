@@ -17,10 +17,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "8.2.5",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-prettier": "2.6.2"
+    "babel-eslint": "8.2.5"
   },
   "devDependencies": {
     "eslint": "5.1.0",
