@@ -6,7 +6,6 @@ node_js:
 before_install:
   - npm install npm@latest -g
 install:
-  - npx install-peerdeps --dev eslint-config
-  - npm install && lerna bootstrap --concurrency=1
+  - npm install && lerna bootstrap --concurrency=1 --hoist
 script:
   - npm run test-all
