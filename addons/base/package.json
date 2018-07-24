@@ -10,13 +10,13 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "5.1.0",
-    "eslint-config-prettier": "^2.0.0",
-    "eslint-plugin-prettier": "^2.0.0",
     "lerna": "2.11.0",
-    "prettier": "1.7.0",
     "updtr": "2.0.0"
   },
   "dependencies": {
+    "prettier": "1.7.0",
+    "eslint-config-prettier": "^2.0.0",
+    "eslint-plugin-prettier": "^2.0.0",
     "babel-eslint": "8.2.5"
   },
   "peerDependencies": {
