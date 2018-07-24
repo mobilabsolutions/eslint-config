@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "eslint .",
@@ -14,10 +14,10 @@
     "updtr": "2.0.0"
   },
   "dependencies": {
-    "prettier": "1.7.0",
+    "babel-eslint": "8.2.5",
     "eslint-config-prettier": "^2.0.0",
     "eslint-plugin-prettier": "^2.0.0",
-    "babel-eslint": "8.2.5"
+    "prettier": "1.7.0"
   },
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.0.1"
