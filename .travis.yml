@@ -6,6 +6,6 @@ node_js:
 before_install:
   - npm install npm@latest -g
 install:
-  - npm install && lerna bootstrap --concurrency=1
+  - npm install && lerna bootstrap --hoist
 script:
   - npm run test-all
