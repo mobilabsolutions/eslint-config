@@ -1,8 +1,7 @@
 {
   "root": true,
   "extends": [
-    "./addons/base/es6.js",
-    "./addons/node/index.js"
+    "./es6.js"
   ],
   "rules": {
     "quotes": [
