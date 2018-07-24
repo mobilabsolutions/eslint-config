@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "eslint .",
@@ -9,11 +9,11 @@
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "5.1.0",
     "eslint-config-prettier": "^2.0.0",
     "eslint-plugin-prettier": "^2.0.0",
-    "prettier": "1.7.0",
-    "eslint": "5.1.0",
     "lerna": "2.11.0",
+    "prettier": "1.7.0",
     "updtr": "2.0.0"
   },
   "dependencies": {
