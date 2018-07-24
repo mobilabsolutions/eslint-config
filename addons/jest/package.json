@@ -9,7 +9,8 @@
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint-plugin-jest": "21.17.0"
+    "eslint-plugin-jest": "21.17.0",
+    "eslint-plugin-prettier": "2.6.2"
   },
   "devDependencies": {
     "eslint": "5.1.0",
