@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config-node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "eslint node configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "eslint .",
@@ -31,5 +31,8 @@
     "style checker",
     "style linter",
     "node"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
