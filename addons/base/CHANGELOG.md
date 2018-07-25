@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.22"></a>
+## [1.0.22](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.0.21...@mobilabsolutions/eslint-config@1.0.22) (2018-07-25)
+
+
+### Bug Fixes
+
+* change npm client. ([71a74b4](https://github.com/mobilabsolutions/eslint-config/commit/71a74b4))
+
+
+
+
 <a name="1.0.21"></a>
 ## [1.0.21](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.0.20...@mobilabsolutions/eslint-config@1.0.21) (2018-07-24)
 
