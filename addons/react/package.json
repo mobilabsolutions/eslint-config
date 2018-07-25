@@ -1,9 +1,40 @@
 {
-	"dependencies": {
-		"babel-eslint": "8.2.5",
-		"eslint": "5.1.0",
-		"eslint-plugin-jsx-a11y": "6.1.0",
-		"eslint-plugin-react": "7.10.0",
-		"lerna": "2.11.0"
-	}
+  "name": "@mobilabsolutions/eslint-config-react",
+  "version": "1.1.5",
+  "description": "eslint react configuration for Mobilab Solutions projects",
+  "scripts": {
+    "test": "./node_modules/.bin/eslint ./",
+    "updtr": "updtr --save-exact"
+  },
+  "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "8.2.5",
+    "eslint-plugin-jsx-a11y": "6.1.0",
+    "eslint-plugin-react": "7.10.0"
+  },
+  "devDependencies": {
+    "@mobilabsolutions/eslint-config": "^1.0.21",
+    "eslint": "5.1.0",
+    "lerna": "2.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1 || ^5.1.0"
+  },
+  "keywords": [
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "eslint-config",
+    "eslint",
+    "eslintconfig",
+    "lint",
+    "style checker",
+    "style linter",
+    "react"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
