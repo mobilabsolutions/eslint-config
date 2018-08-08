@@ -9,7 +9,7 @@
       "bump": "prerelease",
       "conventionalCommits": true,
       "preid": "rc",
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish."
     }
   },
   "npmClient": "yarn",
