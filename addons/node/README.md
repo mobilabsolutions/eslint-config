@@ -23,7 +23,7 @@ To install this package and all its peer dependencies run:
 
 ```bash
 npm install -g install-peerdeps
-install-peerdeps --dev eslint-config-node
+install-peerdeps --dev @mobilabsolutions/eslint-config-node
 ```
 
 ## Usage
