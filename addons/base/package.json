@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "./node_modules/.bin/eslint ./",

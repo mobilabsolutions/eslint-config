@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.0.24"></a>
+## [1.0.24](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.0.23...@mobilabsolutions/eslint-config@1.0.24) (2018-08-08)
+
+
+
+
+**Note:** Version bump only for package @mobilabsolutions/eslint-config
+
 <a name="1.0.23"></a>
 ## [1.0.23](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.0.22...@mobilabsolutions/eslint-config@1.0.23) (2018-08-08)
 
