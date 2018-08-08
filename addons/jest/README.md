@@ -4,7 +4,7 @@
 
 When using an npm 5+
 
-`npx install-peerdeps --dev eslint-config-jest`
+`npx install-peerdeps --dev @mobilabsolutions/eslint-config-jest`
 
 If using npm < 5
 
