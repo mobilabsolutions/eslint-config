@@ -4,7 +4,7 @@
 
 When using an npm 5+
 
-`npx install-peerdeps --dev eslint-config-react`
+`npx install-peerdeps --dev @mobilabsolutions/eslint-config-react`
 
 If using npm < 5
 
