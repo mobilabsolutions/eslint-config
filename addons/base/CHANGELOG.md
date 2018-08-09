@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.0.27...@mobilabsolutions/eslint-config@1.1.0) (2018-08-09)
+
+
+### Features
+
+* add es7, es8, es9 configuration. ([6a9f618](https://github.com/mobilabsolutions/eslint-config/commit/6a9f618))
+
+
+
+
 <a name="1.0.27"></a>
 ## [1.0.27](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.0.26...@mobilabsolutions/eslint-config@1.0.27) (2018-08-08)
 
