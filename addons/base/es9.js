@@ -11,9 +11,6 @@ module.exports = {
     ecmaVersion: 9,
     sourceType: 'module'
   },
-  'plugins': [
-    'prefer-object-spread'
-  ],
   extends: ['prettier'].concat(
     rules
       .filter(name => name.endsWith('.js'))
