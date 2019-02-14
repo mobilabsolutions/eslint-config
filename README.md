@@ -23,6 +23,14 @@ An example to how configure an ES6 + React project.\
   ]
 }
 ```
+## Development
+
+```bash
+git clone git@github.com:mobilabsolutions/eslint-config.git
+cd eslint-config
+yarn
+yarn run bootstrap
+```
 
 ## Addons
 [@mobilabsolutions/eslint-config](./addons/base/README.md) - When using ES5, ES6, ... \
@@ -50,15 +58,6 @@ See http://eslint.org/docs/developer-guide/shareable-configs for more informatio
 ## Contributing
 
 See how to contribute [Contributors Guide](/CONTRIBUTING.md)
-
-## Development
-
-```bash
-git clone git@github.com:mobilabsolutions/eslint-config.git
-cd eslint-config
-yarn
-yarn run bootstrap
-```
 
 ## License
 
