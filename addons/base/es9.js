@@ -6,14 +6,13 @@ const path = require('path');
 const rules = fs.readdirSync(path.join(__dirname, 'rules')); // eslint-disable-line
 
 module.exports = {
+  parser: 'babel-eslint',
   plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 9,
     sourceType: 'module'
   },
   extends: ['prettier'].concat(
-    rules
-      .filter(name => name.endsWith('.js'))
-      .map(name => `./rules/${name}`)
+    rules.filter(name => name.endsWith('.js')).map(name => `./rules/${name}`)
   )
 };

@@ -6,6 +6,7 @@ const path = require('path');
 const rules = fs.readdirSync(path.join(__dirname, 'rules')); // eslint-disable-line
 
 module.exports = {
+  parser: 'babel-eslint',
   env: {
     es6: true
   },

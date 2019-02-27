@@ -9,12 +9,12 @@
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "5.1.0",
+    "eslint": "^5.14.1",
     "lerna": "2.11.0",
     "updtr": "2.0.0"
   },
   "dependencies": {
-    "babel-eslint": "8.2.5",
+    "babel-eslint": "^8.2.5",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-prettier": "2.6.2",
