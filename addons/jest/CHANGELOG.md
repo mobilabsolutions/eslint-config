@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="1.1.15"></a>
+## [1.1.15](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-jest@1.1.14...@mobilabsolutions/eslint-config-jest@1.1.15) (2019-02-27)
+
+
+
+
+**Note:** Version bump only for package @mobilabsolutions/eslint-config-jest
+
 <a name="1.1.14"></a>
 ## [1.1.14](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-jest@1.1.13...@mobilabsolutions/eslint-config-jest@1.1.14) (2019-02-14)
 
