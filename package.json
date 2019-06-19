@@ -6,6 +6,7 @@
     "release": "lerna publish --conventional-commits",
     "bootstrap": "lerna bootstrap",
     "updtr": "updtr --save exact",
+    "test": "echo test",
     "test-all": "lerna run test",
     "update-all": "lerna run updtr"
   },
@@ -16,15 +17,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "8.2.5"
+    "babel-eslint": "10.0.2"
   },
   "devDependencies": {
-    "eslint": "5.14.1",
-    "eslint-config-prettier": "2.9.0",
-    "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-prettier": "2.6.2",
-    "lerna": "3.13.1",
-    "prettier": "1.16.4",
+    "eslint": "5.16.0",
+    "eslint-config-prettier": "5.0.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-prettier": "3.1.0",
+    "lerna": "3.15.0",
+    "prettier": "1.18.2",
     "updtr": "3.1.0"
   },
   "peerDependencies": {
