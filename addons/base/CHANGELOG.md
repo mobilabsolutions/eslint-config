@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4-rc.1](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.1.4-rc.0...@mobilabsolutions/eslint-config@1.1.4-rc.1) (2019-06-19)
+
+
+### Bug Fixes
+
+* vulnerability. ([2a1910e](https://github.com/mobilabsolutions/eslint-config/commit/2a1910e))
+
+
+
+
+
 ## [1.1.4-rc.0](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.1.3...@mobilabsolutions/eslint-config@1.1.4-rc.0) (2019-06-19)
 
 
