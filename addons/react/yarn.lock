@@ -87,10 +87,10 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
-"@mobilabsolutions/eslint-config@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@mobilabsolutions/eslint-config/-/eslint-config-1.1.3.tgz#755d977f1bb21612c23c986d8ca127c012d972f1"
-  integrity sha512-jlFQ1dTUuyES6VyywQKH4QdS8jCvMnfspWPZ0AYypprmvYAQApx/natQvK7LFVQLr1E3S8YiRiQC8Ba/DD+Ajw==
+"@mobilabsolutions/eslint-config@^1.1.4-rc.1":
+  version "1.1.4-rc.1"
+  resolved "https://registry.yarnpkg.com/@mobilabsolutions/eslint-config/-/eslint-config-1.1.4-rc.1.tgz#22c4027199b3a67c6fdc71ece0c3126dbe845903"
+  integrity sha512-8EI3+10KtlSCu9/OmodtVg78NEklcVrYxoLh5r5omNSMtoaOnJtS60MY8S/MReOhFApPh7OSFlfbw5e6LToDlQ==
   dependencies:
     babel-eslint "^8.2.5"
     eslint-config-prettier "2.9.0"
@@ -1764,9 +1764,9 @@ lodash.templatesettings@^4.0.0:
     lodash._reinterpolate "~3.0.0"
 
 lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loose-envify@^1.0.0, loose-envify@^1.4.0:
   version "1.4.0"
