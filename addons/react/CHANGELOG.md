@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.16-rc.4](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.16-rc.3...@mobilabsolutions/eslint-config-react@1.1.16-rc.4) (2019-10-17)
+
+
+### Bug Fixes
+
+* peer dependencies. ([597f733](https://github.com/mobilabsolutions/eslint-config/commit/597f7332bdbf0e8c46ac6e4bc0d8aaf6a3facc50))
+
+
+
+
+
 ## [1.1.16-rc.3](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.16-rc.2...@mobilabsolutions/eslint-config-react@1.1.16-rc.3) (2019-08-13)
 
 **Note:** Version bump only for package @mobilabsolutions/eslint-config-react
