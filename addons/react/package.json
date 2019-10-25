@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config-react",
-  "version": "1.1.16-rc.5",
+  "version": "1.1.16-rc.6",
   "description": "eslint react configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "./node_modules/.bin/eslint ./",
