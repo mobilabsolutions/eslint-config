@@ -9,7 +9,7 @@
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "8.2.5",
+    "babel-eslint": "10.0.3",
     "eslint-plugin-node": "10.0.0"
   },
   "devDependencies": {
