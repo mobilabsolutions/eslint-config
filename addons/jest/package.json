@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config-jest",
-  "version": "1.1.16-rc.5",
+  "version": "1.1.16-rc.6",
   "description": "eslint jest configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "./node_modules/.bin/eslint ./",
@@ -12,7 +12,7 @@
     "eslint-plugin-jest": "23.8.2"
   },
   "devDependencies": {
-    "@mobilabsolutions/eslint-config": "^1.1.4-rc.5",
+    "@mobilabsolutions/eslint-config": "^1.1.4-rc.6",
     "eslint": "6.8.0",
     "lerna": "3.20.2",
     "updtr": "3.1.0"
