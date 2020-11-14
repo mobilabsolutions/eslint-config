@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config-react",
-  "version": "1.1.16-rc.8",
+  "version": "1.1.16-rc.9",
   "description": "eslint react configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "./node_modules/.bin/eslint ./"
@@ -13,7 +13,7 @@
     "eslint-plugin-react": "7.21.5"
   },
   "devDependencies": {
-    "@mobilabsolutions/eslint-config": "^1.1.4-rc.7",
+    "@mobilabsolutions/eslint-config": "^1.1.4-rc.8",
     "eslint": "7.13.0",
     "lerna": "3.22.1",
     "prettier": "2.1.2"

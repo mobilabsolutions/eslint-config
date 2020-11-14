@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.18-rc.9](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-node@1.1.18-rc.8...@mobilabsolutions/eslint-config-node@1.1.18-rc.9) (2020-11-14)
+
+
+### Bug Fixes
+
+* remove updtr dep because it was causing audit issues ([66a6e14](https://github.com/mobilabsolutions/eslint-config/commit/66a6e147a9803f0dfe9e697b94cab9474a691b88))
+
+
+
+
+
 ## [1.1.18-rc.8](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-node@1.1.18-rc.7...@mobilabsolutions/eslint-config-node@1.1.18-rc.8) (2020-11-14)
 
 **Note:** Version bump only for package @mobilabsolutions/eslint-config-node
