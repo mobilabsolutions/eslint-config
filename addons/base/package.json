@@ -3,16 +3,14 @@
   "version": "1.1.4-rc.7",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "./node_modules/.bin/eslint ./",
-    "updtr": "updtr --save exact"
+    "test": "./node_modules/.bin/eslint ./"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "7.13.0",
     "lerna": "3.22.1",
-    "prettier": "2.1.2",
-    "updtr": "3.1.0"
+    "prettier": "2.1.2"
   },
   "dependencies": {
     "babel-eslint": "10.1.0",

@@ -7,8 +7,7 @@
     "bootstrap": "lerna bootstrap",
     "updtr": "updtr --save exact",
     "test": "echo test",
-    "test-all": "lerna run test",
-    "update-all": "lerna run updtr"
+    "test-all": "lerna run test"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "repository": {
@@ -25,8 +24,7 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-prettier": "3.1.4",
     "lerna": "3.22.1",
-    "prettier": "2.1.2",
-    "updtr": "3.1.0"
+    "prettier": "2.1.2"
   },
   "peerDependencies": {
     "eslint": "^4.19.1 || ^5.0.0 || ^6.5.1 || ^7.2.0",
