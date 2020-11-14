@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.16-rc.10](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.16-rc.9...@mobilabsolutions/eslint-config-react@1.1.16-rc.10) (2020-11-14)
+
+
+### Bug Fixes
+
+* update peer dependencies ([6703dbf](https://github.com/mobilabsolutions/eslint-config/commit/6703dbfcc93fdee510b346f6db7dd258303acd94))
+
+
+
+
+
 ## [1.1.16-rc.9](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.16-rc.8...@mobilabsolutions/eslint-config-react@1.1.16-rc.9) (2020-11-14)
 
 
