@@ -10,14 +10,15 @@
   "license": "MIT",
   "dependencies": {
     "babel-eslint": "10.1.0",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.19.0"
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-react": "7.21.5"
   },
   "devDependencies": {
     "@mobilabsolutions/eslint-config": "^1.1.4-rc.6",
-    "eslint": "^6.5.1",
-    "lerna": "3.20.2",
-    "prettier": "2.0.5"
+    "eslint": "7.13.0",
+    "lerna": "3.22.1",
+    "prettier": "2.1.2",
+    "updtr": "3.1.0"
   },
   "peerDependencies": {
     "eslint": "^6.5.1"

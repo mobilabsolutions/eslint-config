@@ -16,7 +16,8 @@
     "@mobilabsolutions/eslint-config": "^1.1.4-rc.6",
     "eslint": "6.8.0",
     "lerna": "3.20.2",
-    "prettier": "2.0.5"
+    "prettier": "2.0.5",
+    "updtr": "3.1.0"
   },
   "peerDependencies": {
     "eslint": "^6.5.1"
