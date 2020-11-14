@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4-rc.7](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.1.4-rc.6...@mobilabsolutions/eslint-config@1.1.4-rc.7) (2020-11-14)
+
+**Note:** Version bump only for package @mobilabsolutions/eslint-config
+
+
+
+
+
 ## [1.1.4-rc.6](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config@1.1.4-rc.5...@mobilabsolutions/eslint-config@1.1.4-rc.6) (2020-04-27)
 
 
