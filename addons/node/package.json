@@ -1,6 +1,6 @@
 {
   "name": "@mobilabsolutions/eslint-config-node",
-  "version": "1.1.18-rc.11",
+  "version": "1.1.18",
   "description": "eslint node configuration for Mobilab Solutions projects",
   "scripts": {
     "test": "eslint ./",
@@ -13,7 +13,7 @@
     "eslint-plugin-node": "11.1.0"
   },
   "devDependencies": {
-    "@mobilabsolutions/eslint-config": "^1.1.4-rc.10",
+    "@mobilabsolutions/eslint-config": "^1.1.4",
     "eslint": "6.8.0",
     "lerna": "3.20.2",
     "prettier": "2.0.5"
