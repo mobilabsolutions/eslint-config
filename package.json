@@ -5,7 +5,6 @@
   "scripts": {
     "release": "lerna publish --conventional-commits",
     "bootstrap": "lerna bootstrap",
-    "updtr": "updtr --save exact",
     "test": "echo test",
     "test-all": "lerna run test"
   },
