@@ -3,7 +3,7 @@
   "version": "1.1.4-rc.10",
   "description": "eslint configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "./node_modules/.bin/eslint ./"
+    "test": "eslint ./"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
   "license": "MIT",

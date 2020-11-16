@@ -3,7 +3,7 @@
   "version": "1.1.18-rc.11",
   "description": "eslint node configuration for Mobilab Solutions projects",
   "scripts": {
-    "test": "./node_modules/.bin/eslint ./",
+    "test": "eslint ./",
     "updtr": "updtr --save exact"
   },
   "author": "João Henriques <joao.henriques@mobilabsolutions.com>",
