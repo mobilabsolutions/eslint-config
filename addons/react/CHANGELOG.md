@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.17-alpha.0](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.16...@mobilabsolutions/eslint-config-react@1.1.17-alpha.0) (2021-03-24)
+
+
+### Bug Fixes
+
+* **react:** prettier configuration with the new format ([998a3e7](https://github.com/mobilabsolutions/eslint-config/commit/998a3e787f52ce5c980b24d6f4aca45c542099d0))
+
+
+
+
+
 ## [1.1.16](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.16-rc.11...@mobilabsolutions/eslint-config-react@1.1.16) (2020-11-16)
 
 
