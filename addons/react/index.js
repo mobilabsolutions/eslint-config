@@ -12,7 +12,7 @@ module.exports = {
       jsx: true
     }
   },
-  extends: ['prettier/react'].concat(
+  extends: ['prettier'].concat(
     rules.filter(name => name.endsWith('.js')).map(name => `./rules/${name}`)
   )
 };
