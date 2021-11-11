@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.17-alpha.1](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.17-alpha.0...@mobilabsolutions/eslint-config-react@1.1.17-alpha.1) (2021-11-11)
+
+
+### Features
+
+* add react hooks plugin ([2f1fcbf](https://github.com/mobilabsolutions/eslint-config/commit/2f1fcbf55835cef0598eee3bcc9970f75025ba9e))
+
+
+
+
+
 ## [1.1.17-alpha.0](https://github.com/mobilabsolutions/eslint-config/compare/@mobilabsolutions/eslint-config-react@1.1.16...@mobilabsolutions/eslint-config-react@1.1.17-alpha.0) (2021-03-24)
 
 
