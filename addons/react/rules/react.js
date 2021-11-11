@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+  extends: ['plugin:react-hooks/recommended'],
   rules: {
     // Specify whether double or single quotes should be used in JSX attributes
     // https://eslint.org/docs/rules/jsx-quotes
