@@ -16,7 +16,7 @@
     "lerna": "3.22.1"
   },
   "peerDependencies": {
-    "eslint": "^6.5.1 || ^7.2.0"
+    "eslint": "^6.5.1 || ^7.2.0 || ^8.2.0"
   },
   "keywords": [
     "code checker",
